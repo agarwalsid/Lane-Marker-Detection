@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sid/Cruise/linefinder.h
+opencv2/core/core.hpp
+-
+opencv2/imgproc/imgproc.hpp
+-
+
+/home/sid/Cruise/main.cpp
+opencv2/highgui/highgui.hpp
+/home/sid/Cruise/opencv2/highgui/highgui.hpp
+opencv2/objdetect/objdetect.hpp
+-
+opencv2/imgproc/imgproc.hpp
+-
+iostream
+-
+vector
+-
+stdio.h
+-
+sstream
+-
+fstream
+-
+string
+-
+stdlib.h
+-
+unistd.h
+-
+linefinder.h
+/home/sid/Cruise/linefinder.h
+
